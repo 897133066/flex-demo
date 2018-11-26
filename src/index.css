@@ -1,0 +1,154 @@
+body{
+    padding: 20px;
+    margin: 0 auto;
+    background: #E2E2E2;
+    max-width: 1024px;
+    color: #595B66;
+    font-family: 'Microsoft Yahei', sans-serif;
+}
+h1,h2,h3,h4 {
+    color: #797979;
+    padding: 5px 0;
+}
+h1,h2{
+    border-bottom: solid 2px #797979;
+}
+p{
+    font-size: 15px;
+    background: #797979;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    line-height: 2;
+}
+a{
+    color:#FFD200;
+}
+.box {
+    background-color: white;
+    margin: 0 0 55px;
+    display: flex;
+}
+.box-item {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background-color: #FFD200;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    margin: 5px;
+}
+.item-tall{
+    height: 400px;
+    line-height: 400px;
+}
+.box-tall {
+    height: 800px;
+}
+.box-1{
+    flex-direction: row;
+}
+.box-2{
+    flex-wrap: nowrap;
+}
+.box-3{
+    flex-wrap: wrap;
+}
+.box-4{
+    flex-flow: row nowrap;
+}
+.box-5{
+    justify-content: flex-start;
+}
+.box-6{
+    justify-content: flex-end;
+}
+.box-7{
+    justify-content: center;
+}
+.box-8 {
+    justify-content: space-between;
+}
+.box-9 {
+    justify-content: space-around;
+}
+.box-10 {
+    align-items: flex-start;
+}
+.box-11 {
+    align-items: flex-end;
+}
+.box-12{
+    align-items: center;
+}
+.box-13 {
+    align-items: baseline;
+}
+.box-13 .box-item{
+    line-height: initial;
+    text-decoration: underline;
+}
+.box-14 .box-item {
+    height: auto;
+}
+.box-15{
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.box-16{
+    align-content: flex-end;
+    flex-flow:wrap;
+}
+.box-17{
+    align-content: center;
+    flex-flow: wrap;
+}
+.box-18 {
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.box-19 {
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.box-20 {
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+.box-20 .box-item {
+    height: auto;
+}
+.box-21 .order {
+    order: -1;
+}
+.box-item div {
+    font-size: 14px;
+    position: relative;
+    top: -130px;
+}
+.box-22 .grow {
+    flex-grow: 1;
+}
+.box-22 .grow-1 {
+    flex-grow: 1;
+}
+.box-22 .grow-2 {
+    flex-grow: 2;
+}
+.box-22 .grow-3 {
+    flex-grow: 1;
+}
+.box-22 .grow-4 {
+    flex-grow: 1;
+}
+.box-23 .box-item {
+    width: 400px;
+}
+.box-23 .shrink-1 {
+    flex-shrink: 0;
+}
+.box-24 .box-item  {
+flex-basis: 300px
+}
